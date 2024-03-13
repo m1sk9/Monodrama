@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.5.0](https://github.com/m1sk9/Monodrama/compare/monodorama-v2.4.1...monodorama-v2.5.0) (2024-03-13)
+
+
+### Features
+
+* release v2.5.0 ([a29faa8](https://github.com/m1sk9/Monodrama/commit/a29faa8ad3ca20e53044ce149d16027ba72d7ba0))
+
 ## [2.4.1](https://github.com/approvers/ichiyoAI/compare/ichiyo_ai-v2.4.0...ichiyo_ai-v2.4.1) (2024-03-06)
 
 
