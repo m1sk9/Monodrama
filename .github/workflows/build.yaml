@@ -1,0 +1,29 @@
+name: Build Monodrama
+
+on:
+  push:
+    branches:
+      - main
+      - 'release/v*.*.*'
+  pull_request:
+    branches:
+      - main
+      - 'release/v*.*.*'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Build Monodrama
+    steps:
+      - name: Checkout branch
+        uses: actions/checkout@v4
+
+      - uses: mkroening/rust-toolchain-toml@main
+
+      - name: Setup cache
+        uses: Swatinem/rust-cache@v2
+        with:
+          prefix-key: "monodrama/gh-actions-cache"
+
+      - name: Run Build
+        run: cargo build --verbose
