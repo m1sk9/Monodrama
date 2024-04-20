@@ -1,5 +1,10 @@
 # Monodrama
 
+> [!NOTE]
+>
+> Monodrama has finished development with [`v2.5.1`](https://github.com/m1sk9/Monodrama/releases/tag/monodorama-v2.5.1) which fixes the rustls vulnerability.
+> I may resume development if my Discord server needs it in the future, but I don't know yet.
+
 [![Build Monodrama](https://github.com/m1sk9/Monodrama/actions/workflows/build.yaml/badge.svg)](https://github.com/m1sk9/Monodrama/actions/workflows/build.yaml)
 [![clippy](https://github.com/m1sk9/Monodrama/actions/workflows/clippy.yaml/badge.svg)](https://github.com/m1sk9/Monodrama/actions/workflows/clippy.yaml)
 [![rustfmt](https://github.com/m1sk9/Monodrama/actions/workflows/fmt.yaml/badge.svg)](https://github.com/m1sk9/Monodrama/actions/workflows/fmt.yaml)
