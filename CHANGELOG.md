@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.5.1](https://github.com/m1sk9/Monodrama/compare/monodorama-v2.5.0...monodorama-v2.5.1) (2024-04-20)
+
+
+### Bug Fixes
+
+* **deps:** bump rustls from 0.21.6 to 0.21.11 ([#12](https://github.com/m1sk9/Monodrama/issues/12)) ([628c9d2](https://github.com/m1sk9/Monodrama/commit/628c9d2faf2a54bdda2955bf0fd3382310d805d8))
+
 ## [2.5.0](https://github.com/m1sk9/Monodrama/compare/monodorama-v2.4.1...monodorama-v2.5.0) (2024-03-13)
 
 
